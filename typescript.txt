@@ -1,0 +1,82 @@
+Script started on Fri 30 Oct 2020 04:50:11 AM UTC
+[01;32mvocstartsoft[00m:[01;34m~/environment/hw-ruby-intro[00m (master) $ rspec spec/part3_spec.rb2_spec.rb1_spec.rb
+
+Ruby intro part 1
+  #sum
+[32m    should be defined[0m
+[32m    returns correct sum [20 points][0m
+[32m    works on the empty array [10 points][0m
+  #max_2_sum
+[32m    should be defined[0m
+[32m    returns the correct sum [7 points][0m
+[32m    works even if 2 largest values are the same [3 points][0m
+[32m    returns zero if array is empty [10 points][0m
+[32m    returns value of the element if just one element [10 points][0m
+  #sum_to_n
+[32m    should be defined[0m
+[32m    returns true when any two elements sum to the second argument [30 points][0m
+[32m    returns false for any single element array [5 points][0m
+[32m    returns false for an empty array [5 points][0m
+
+Finished in 0.01324 seconds (files took 0.0957 seconds to load)
+[32m12 examples, 0 failures[0m
+
+[01;32mvocstartsoft[00m:[01;34m~/environment/hw-ruby-intro[00m (master) $ rspec spec/part1_spec.rb3_spec.rb2_spec.rb
+
+#hello
+[32m  should be defined[0m
+[32m  The hello method returns the correct string [30 points][0m
+
+#starts_with_consonant?
+[32m  should be defined[0m
+[32m  classifies true cases [10 points][0m
+[32m  classifies false cases [10 points][0m
+[32m  works on the empty string [5 points][0m
+[32m  works on nonletters [5 points][0m
+
+#binary_multiple_of_4?
+[32m  should be defined[0m
+[32m  classifies valid binary numbers [30 points][0m
+[32m  rejects invalid binary numbers [10 points][0m
+
+Finished in 0.01908 seconds (files took 0.09403 seconds to load)
+[32m10 examples, 0 failures[0m
+
+[01;32mvocstartsoft[00m:[01;34m~/environment/hw-ruby-intro[00m (master) $ rspec spec/part2_spec.rb1_spec.rb3_spec.rb
+
+BookInStock
+[32m  should be defined[0m
+  getters and setters
+[32m    should set ISBN [10 points][0m
+[32m    should set price [10 points][0m
+[32m    should be able to change ISBN [10 points][0m
+[32m    should be able to change price [10 points][0m
+  constructor
+[32m    should reject invalid ISBN number [10 points][0m
+[32m    should reject zero price [10 points][0m
+[32m    should reject negative price [10 points][0m
+  #price_as_string
+[32m    should be defined[0m
+[32m    should display 33.95 as "$33.95" [10 points][0m
+[32m    should display 1.1 as $1.10 [10 points][0m
+[32m    should display 20 as $20.00 [10 points][0m
+
+Finished in 0.00933 seconds (files took 0.10001 seconds to load)
+[32m12 examples, 0 failures[0m
+
+[01;32mvocstartsoft[00m:[01;34m~/environment/hw-ruby-intro[00m (master) $ [K[01;32mvocstartsoft[00m:[01;34m~/environment/hw-ruby-intro[00m (master) $ git add gype[K[K[K[Ktu[Kypescript
+[01;32mvocstartsoft[00m:[01;34m~/environment/hw-ruby-intro[00m (master) $ git remote[K[K[K[K[K[Kremote -v
+origin	https://github.com/ShinEuntak/hw-ruby-intro (fetch)
+origin	https://github.com/ShinEuntak/hw-ruby-intro (push)
+[01;32mvocstartsoft[00m:[01;34m~/environment/hw-ruby-intro[00m (master) $ git commit -m ru[K[Kruby-hw2[K[K[K[K[K[Kby-hw2
+[master 8f0bb18] ruby-hw2
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 typescript
+[01;32mvocstartsoft[00m:[01;34m~/environment/hw-ruby-intro[00m (master) $ git pu[K[K[K push [K[K[K[K[Kremote [K[K[K[K[K[K[Kpush origin master
+Username for 'https://github.com/ShinEuntak/hw-ruby-intro':   git     q
+Password for 'https://q@github.com/ShinEuntak/hw-ruby-intro': 
+remote: Invalid username or password.
+fatal: Authentication failed for 'https://github.com/ShinEuntak/hw-ruby-intro/'
+[01;32mvocstartsoft[00m:[01;34m~/environment/hw-ruby-intro[00m (master) $ git push origin mastercommit -m ruby-hw2push origin master
+Username for 'https://github.com/ShinEuntak/hw-ruby-intro': ShinEuntak
+Password for 'https://ShinEunta
